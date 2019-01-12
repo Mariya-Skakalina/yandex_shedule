@@ -1,0 +1,60 @@
+#schedule{
+    margin-top: 1.5em;
+}
+.airport{
+    cursor: pointer;
+    margin-left: 15%;
+}
+.track{
+    margin:  1em;
+    display: grid;
+    grid-template-columns: 10% 10% 15% 15% 15% 10%;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.5em;
+}
+#types{
+    display: none;
+    grid-template-columns: 10% 10% 10%;
+    margin: 2em;
+}
+#types> div{
+    cursor: pointer;
+    border-bottom: 1px dashed gray;
+    color: darkslategray;
+    width: 100px;
+}
+#track{
+    display: none;
+}
+.number-flight{
+    text-align: center;
+}
+#arrival{
+    padding-top: 1em;
+}
+#flight{
+    border-radius: 7px;
+    width: 300px;
+    outline: none;
+    padding-left: 0.6em;
+}
+input#flight:focus {
+    border: 2px groove green;
+}
+#search-flight{
+    border-radius: 7px;
+}
+button#search-flight:hover{
+    background: #d6fff7;
+    border: 2px outset green;
+}
+button#search-flight:focus{
+    outline: none;
+}
+#search{
+    display: none;
+    margin: 2em 40%;
+}
+#poop{
+    display: none;
+}

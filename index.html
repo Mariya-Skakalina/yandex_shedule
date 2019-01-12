@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <h1>Выберите аэропорт</h1>
+    </div>
+    <diV id="schedule">
+        <a airport="9600213" class="airport">Шереметьево</a>
+        <a airport="9600216" class="airport">Домодедово</a>
+        <a airport="9600215" class="airport">Внуково</a>
+        <a airport="9850865" class="airport">Жуковский</a>
+    </diV>
+    <div id="search">
+        <input type="text" id="flight" name="flight" placeholder="Поиск по рейсу">
+        <button id="search-flight">Искать</button>
+    </div>
+    <div id="types">
+        <div id="departures" class="type">Отправления</div>
+        <div id="arrival" class="type">Прибытиe</div>
+        <!-- <div id="detained" class="type">Задерживающиеся</div> -->
+    </div>
+    <div class="track" id="track">
+        <div class="flight-date">Дата</div>
+        <div class="number-flight">Рейс</div>
+        <div class="title-flight">Направление</div>
+        <div class="terminal-flight">Терминал</div>
+        <div class="terminal-flight">Авиакомпания</div>
+        <div class="terminal-flight">Тип смолета</div>
+    </div>
+    <p id="poop">Загрузка</p>
+    <div id="content">
+
+    </div>
+    <script src="./javascripts/main.js"></script>
+</body>
+</html>
